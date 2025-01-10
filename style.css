@@ -1,71 +1,48 @@
+/*初期設定*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: #6c6b6b;
 }
-a{
-  text-decoration: none;
-}
 
-header, nav, h2, .main-visual,footer{
-  font-family: Chalkduster,"Bradley Hand",Courier,"Segoe Print", sans-serif;
-}
+
+/*ヘッダー設定*/
 
 header{
-  width: 90%;
-  padding: 15px 0;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
 }
 
-.social {
-  position: absolute;
-  top: 22px;
-  right: 22px;
+.header-group{
+	display: flex;
+	justify-content: space-between;
+	font-size: 0;
 }
 
-.social i{
-  display: inline-block;
-  margin-left: 20px;
+.logo{
+	height: 70px;
 }
 
-.fab{
-  font-size: 32;
-}
-
-.position{
-  position: absolute;
-  top: 100px;
-  right:40px
-}
-
-header .heading{
-  font-size: 32px;
-   text-align: center;
-}
-
-ul{
-  padding-left:0;
-}
-
-li{
-  list-style:none;
+.nav{
+	display: flex;
 }
 
 .nav-list{
-  text-align: center;
-  padding:10px 0;
-  margin: 0 auto;  
+	width: 120px;
+	line-height: 70px;
+	color: #FAFAFA;
+	padding: 0 30px;
+	list-style: none;
+	font-size: 16px;
 }
 
-.nav-list-item{
-  list-style: none;
-  display: inline-block;
-  margin: 0 20px;
+.nav-list a{
+	color: #FAFAFA;
 }
 
+/*メイン設定*/
 
 .main-visual {
   width: 100%; /* 横幅いっぱい */
