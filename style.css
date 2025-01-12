@@ -44,6 +44,15 @@ header{
 
 /*メイン設定*/
 
+#mv
+{
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+}
+
 .main-visual {
   width: 100%; /* 横幅いっぱい */
   height: 300px; /* 高さ300px */
