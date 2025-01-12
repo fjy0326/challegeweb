@@ -53,6 +53,12 @@ header{
   height: 650px;
 }
 
+.mv-title
+{
+  font-size:  64px;
+  color: #FAFAFA;
+}
+
 .main-visual {
   width: 100%; /* 横幅いっぱい */
   height: 300px; /* 高さ300px */
