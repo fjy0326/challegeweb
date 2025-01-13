@@ -6,7 +6,6 @@
   color: #6c6b6b;
 }
 
-
 /*ヘッダー設定*/
 
 header{
@@ -91,6 +90,68 @@ main{
   margin: 0 auto;
   padding: 70px 0;
 }
+
+/*ポートフォリオ設定*/
+
+#portfolio
+{
+  width:100%;height:auto;
+  color: #ECEFF1;
+  justify-content: center;
+}
+
+.heading{
+  padding-top: 90px;
+  padding-bottom: 8px;
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+  
+}
+
+.heading::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+
+.heading-text
+{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+
+
+.container
+{
+  width: 920px;  
+  margin: 0 auto;
+}
+
+.production-group
+{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bg
+{
+  padding-right: 10px;
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
+
+}
+
+/**/
 
 .blog{
   width: 540px;
