@@ -42,7 +42,7 @@ header{
 }
 
 /*メイン設定*/
-
+/*メインボディ*/
 #mv
 {
   background-image: url(img/mv.png);
@@ -54,42 +54,19 @@ header{
 
 .mv-title
 {
+  padding-top: 200px;
+  padding-bottom: 10px;
+  text-align: center;
   font-size:  64px;
   color: #FAFAFA;
 }
-
-.main-visual {
-  width: 100%; /* 横幅いっぱい */
-  height: 300px; /* 高さ300px */
-  background-image: url(img/mv.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.main-visual-content{
-  width: 40%;
-  height: 300px;
-  background-color: rgba(0,0,0,0.5);
+.mv-text
+{
+  font-size: 20px;
+  color: #FAFAFA;
   text-align: center;
-  padding-top: 105px;
 }
 
-.main-visual-text{
-  color: #fff;
-}
-
-.main-visual-name{
-  margin-top: 30px;
-  color: #fff;
-}
-
-main{
-  width: 800px;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 70px 0;
-}
 
 /*ポートフォリオ設定*/
 
@@ -151,6 +128,63 @@ main{
 
 }
 
+/*プロフィール設定*/
+
+#profile
+{
+  width:100%;height:auto;
+  color: #ECEFF1;
+  justify-content: center;
+}
+
+.container-profile
+{
+  width: 1024px;  
+  margin: 0 auto;
+}
+
+.profile-text{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+
+.subheading{
+  padding-top: 20px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.profile-subtext
+{
+  padding-top: 5px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.profile-group
+{
+  padding-top: 30px;
+  padding-bottom: 90px;
+  display: flex;
+}
+
+.left-container{
+  width: 50%;
+}
+
+.right-container{
+  width: 50%;
+}
+
+.my-icon{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
 /**/
 
 .blog{
@@ -159,9 +193,9 @@ main{
 }
 
 .blog-heading{
- border-bottom: 8px solid #F7F7F7;
- text-align: center;
- line-height: 0.6;
+  border-bottom: 8px solid #F7F7F7;
+  text-align: center;
+  line-height: 0.6;
 }
 
 .blog-box{
