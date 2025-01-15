@@ -73,8 +73,8 @@ header{
 #portfolio
 {
   width:100%;height:auto;
-  color: #ECEFF1;
   justify-content: center;
+  background-color: #ECEFF1;
 }
 
 .heading{
@@ -128,14 +128,57 @@ header{
 
 }
 
+/*フィーチャー設定*/
+
+.fa{
+  font-size: 60px;
+  color: #000000; 
+}
+
+
+#feature{
+  width:100%;
+  height:auto;
+  justify-content: center;
+}
+
+.feature-container{
+  width: 320px;
+  text-align: center;
+    margin: 0px 10px 0px 0px;
+}
+
+.feature-group{
+  justify-content: center;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
+.feature-text{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+
+.feature-subtext{
+  padding-top: 10px;
+  text-align: left;
+  font-size: 16px;
+  color: #000000;
+}
+
+
 /*プロフィール設定*/
 
 #profile
 {
   width:100%;height:auto;
-  color: #ECEFF1;
   justify-content: center;
+  background-color: #ECEFF1;
 }
+
 
 .container-profile
 {
@@ -143,7 +186,8 @@ header{
   margin: 0 auto;
 }
 
-.profile-text{
+.profile-text
+{
   padding-top: 30px;
   text-align: center;
   font-size: 16px;
