@@ -229,6 +229,87 @@ header{
     border-radius: 50%;
 }
 
+/*コンタクト設定*/
+
+
+#contact
+{
+  justify-content: center;
+}
+
+.contact-container
+{
+  width: 800px;
+  margin: 0 auto;
+  
+}
+
+.contact-text
+{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000; 
+}
+
+.subheading-contact
+{
+  font-size: 20px;
+  color: #000000;
+}
+
+.sns
+{
+  font-size: 20px;
+  color: #000000;
+}
+
+.contact-group
+{
+  padding-top: 30px;
+  padding-bottom: 90px;
+  width: 800px;
+  display: flex;
+ }
+
+
+.left-container
+{
+  width: 50%;
+}
+
+.right-container
+{
+  width: 50%;
+  margin-right: 20px;
+}
+
+.left-contact-container
+{
+  width: 130px;
+  margin: 0 auto;
+}
+
+.right-contact-container
+{
+  width: 190px;
+  margin: 0 auto;
+}
+.right-contact-container .fa2:last-child
+{
+    margin-right: 0;
+}
+
+.right-contact-container .fa2
+{    
+  font-size: 50px;
+  margin-right: 20px;
+}
+.fa2{
+  font-size: 60px;
+  color: #000000; 
+}
+
 /**/
 
 .blog{
